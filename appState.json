@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7266a622-c615-4021-9538-e208cd5d09c1": {
+        "id": "7266a622-c615-4021-9538-e208cd5d09c1",
+        "parent": null,
+        "name": "goofle-irland.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "goofle-irland.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "goofleIrland"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuWest1Singaporetestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "7266a622-c615-4021-9538-e208cd5d09c1"
+    ],
+    "currentFileId": "7266a622-c615-4021-9538-e208cd5d09c1",
+    "resources": {
+      "apigeuWest1Singaporetestinduany": {
+        "name": "apigeuWest1Singaporetestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-west-1",
+          "apiMode": 0,
+          "apiName": "Singapore",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test11",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "goofle-irland",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586350515143
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "goofle-irland",
+      "url": "https://github.com/Indunil1992/goofle-irland"
+    }
+  }
+}
